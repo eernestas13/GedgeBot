@@ -46,7 +46,10 @@ class Client {
             .then(data => new User(data));
     }
 
-    /**
+    /** ernestas-setUserRentBalance?
+     * Set a users rent balance.
+     * take bonds from user and set rent balance
+     * 
      * Set a users balance to the provided values.
      *
      * @public
